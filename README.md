@@ -5,6 +5,9 @@
 [![Impact](https://img.shields.io/badge/Cost%20Reduction-72%25-brightgreen?style=for-the-badge)](https://github.com)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)](https://github.com)
 
+
+<img width="1280" height="626" alt="image" src="https://github.com/user-attachments/assets/3d209f72-a068-4618-b214-118d19a7a7d7" />
+
 ---
 
 ## 📌 Project Overview
@@ -67,7 +70,6 @@ This project presents an **advanced data-driven solution** for optimizing dark s
 ### 3. **Cost Optimization Engine**
 - Distance-based delivery cost calculation
 - Traffic density weighting (Low/Medium/High/Jam)
-- Weather impact modeling
 - Order frequency analysis
 - Real-world delivery friction factors
 
@@ -111,7 +113,7 @@ Analysis:           Statistical metrics, clustering evaluation
 ```
 
 ### Methodology
-1. **Data Ingestion** → Load Zomato delivery dataset
+1. **Data Ingestion** → Load Blinkit delivery dataset
 2. **City Filtering** → Extract data for target cities (Pune, Goa)
 3. **Data Cleaning** → Remove invalid coordinates, handle missing values
 4. **Feature Engineering** → Calculate costs, weights, demand metrics
@@ -467,3 +469,4 @@ jupyter notebook goa_dark_store_expansion.ipynb
 *This project demonstrates the power of data-driven decision making in supply chain optimization. The 72% cost reduction and national-level hackathon ranking validate the approach's effectiveness and scalability.*
 
 🎯 **Mission Accomplished**: Optimizing Blinkit's dark store network for maximum efficiency and cost-effectiveness! 🚀
+
