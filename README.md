@@ -123,77 +123,6 @@ Analysis:           Statistical metrics, clustering evaluation
 8. **Visualization** → Interactive maps and dashboards
 9. **Recommendations** → Actionable dark store placement strategy
 
----
-
-## 📁 Project Structure
-
-```
-Blinkit Dark Store Optimization Model/
-├── README.md                              # Project documentation
-├── Zomato_Data.csv                        # Source delivery data
-├── Customer_data.csv                      # Customer information
-│
-├── PUNE OPTIMIZATION (Existing Market)
-│   ├── optimize_darkstore_location.ipynb          # Original analysis
-│   ├── pune_dark_store_optimization_v2.ipynb      # Improved v2.0
-│   ├── pune_filtered_data.csv                     # Processed data
-│   ├── pune_customer_heatmap.html                 # Demand visualization
-│   ├── pune_dark_store_map.html                   # Store locations
-│   ├── existing_stores_ranking_with_cost.csv      # Store rankings
-│   └── final_store_optimization_with_heatmap.html # Final optimization
-│
-├── GOA EXPANSION (New Market)
-│   ├── goa_dark_store_expansion.ipynb             # Goa analysis
-│   ├── goa_dark_store_clusters_map.html           # Cluster visualization
-│   ├── goa_dark_store_analysis.csv                # Location recommendations
-│   ├── goa_delivery_clusters.csv                  # Cluster assignments
-│   └── pune_demand_heatmap.html                   # Demand patterns
-│
-└── visualize.ipynb                        # Additional visualizations
-    download.ipynb                          # Data utilities
-```
-
----
-
-## 🚀 Quick Start Guide
-
-### Prerequisites
-```bash
-Python 3.8+
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-folium
-```
-
-### Installation
-```bash
-# Clone or download the repository
-cd "Blinkit Dark Store Optimization Model"
-
-# Install required packages
-pip install -r requirements.txt
-```
-
-### Running the Analysis
-
-#### For Pune (Existing Market)
-```bash
-jupyter notebook pune_dark_store_optimization_v2.ipynb
-```
-
-#### For Goa (New Market Expansion)
-```bash
-jupyter notebook goa_dark_store_expansion.ipynb
-```
-
-### Output Files
-After running the notebooks, you'll get:
-- **CSV Files**: Store rankings, location coordinates, cluster assignments
-- **HTML Maps**: Interactive visualizations of clusters and demand
-- **Console Metrics**: Silhouette scores, cost reduction percentages, quality metrics
 
 ---
 
@@ -305,87 +234,6 @@ Delivery_Cost = Distance_km × Traffic_Weight × Order_Frequency
 
 ---
 
-## 🧮 How the 72% Cost Reduction Works
-
-### Cost Formula Analysis
-```
-Old Cost = Distance × Traffic_Weight × Order_Frequency
-           (from current store locations)
-
-New Cost = New_Distance × Traffic_Weight × Order_Frequency
-           (from optimized store locations)
-
-Reduction = (Old Cost - New Cost) / Old Cost × 100%
-          = 72%
-```
-
-### Cost Reduction Breakdown
-| Factor | Contribution to Savings |
-|--------|--------------------------|
-| Reduced Delivery Distance | 45% |
-| Eliminated Redundant Stores | 18% |
-| Optimized Store Placement | 9% |
-| **Total** | **72%** |
-
----
-
-## 🔮 Future Enhancements
-
-### Phase 2 Improvements
-- [ ] Real-time demand forecasting integration
-- [ ] Weather-based route optimization
-- [ ] Traffic pattern machine learning models
-- [ ] Inventory optimization for each location
-- [ ] Dynamic pricing based on demand clusters
-- [ ] Integration with Blinkit's supply chain system
-
-### Expansion Roadmap
-- [ ] Apply to 10 metropolitan cities
-- [ ] Develop city-specific models
-- [ ] Create automated daily re-optimization pipeline
-- [ ] Build predictive models for future growth
-- [ ] Integrate with competitor analysis
-
----
-
-## 👥 Team & Contributions
-
-**Project**: Blinkit Dark Store Optimization
-**Hackathon**: Blinkit National Level 2024
-**Achievement**: 🥉 Rank 3 National
-**Domain**: Supply Chain Optimization, Geospatial Analysis, Machine Learning
-
----
-
-## 📋 Requirements
-
-See `requirements.txt` for complete dependencies:
-```
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=0.24.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-folium>=0.12.0
-branca>=0.5.0
-```
-
-### Install
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 📝 Documentation Files
-
-- `README.md` (this file) - Project overview
-- `goa_dark_store_expansion.ipynb` - Goa clustering analysis
-- `pune_dark_store_optimization_v2.ipynb` - Pune optimization (v2.0)
-- Detailed comments in each notebook
-
----
-
 ## 🎓 Learning Outcomes
 
 This project demonstrates:
@@ -397,30 +245,7 @@ This project demonstrates:
 - ✓ Real-world supply chain problem solving
 - ✓ Scalable ML architecture for business problems
 
----
 
-## 🤝 Contributing
-
-This project was developed for the Blinkit Hackathon. For questions or improvements:
-1. Review the notebooks for detailed methodology
-2. Check the CSV outputs for data validation
-3. Examine the interactive maps for geographic accuracy
-
----
-
-## 📜 License
-
-This project was developed as part of Blinkit's Hackathon 2024.
-
----
-
-## 📞 Contact & Support
-
-For questions about:
-- **Methodology**: See detailed comments in Jupyter notebooks
-- **Results**: Check output CSV files and interactive maps
-- **Data**: Review Zomato_Data.csv and processed outputs
-- **Metrics**: See quality metrics documentation in notebooks
 
 ---
 
@@ -437,36 +262,11 @@ For questions about:
 
 ---
 
-## 🚀 Getting Started
-
-```bash
-# 1. Clone/Download repository
-cd "Blinkit Dark Store Optimization Model"
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run Pune Analysis (existing market)
-jupyter notebook pune_dark_store_optimization_v2.ipynb
-
-# 4. Run Goa Analysis (new market)
-jupyter notebook goa_dark_store_expansion.ipynb
-
-# 5. View Results
-# - Open generated HTML files in browser
-# - Check CSV outputs for data
-# - Review console metrics
-```
-
----
-
-**Last Updated**: January 2024  
-**Status**: ✅ Production Ready  
+**Last Updated**: January 2025  
 **Version**: 2.0
 
 ---
 
 *This project demonstrates the power of data-driven decision making in supply chain optimization. The 72% cost reduction and national-level hackathon ranking validate the approach's effectiveness and scalability.*
 
-🎯 **Mission Accomplished**: Optimizing Blinkit's dark store network for maximum efficiency and cost-effectiveness! 🚀
 
